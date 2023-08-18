@@ -32,8 +32,10 @@ public class UberSocial {
                 redes.add(new Twitter(username));
                 JOptionPane.showMessageDialog(null, "Agregado exitosamente");
             }
+        }else {
+                    JOptionPane.showMessageDialog(null, "Nombre de usuario no valido.");
+
         }
-        JOptionPane.showMessageDialog(null, "Nombre de usuario no valido.");
     }
     
     public static void agregarPost(String username, String post) {
