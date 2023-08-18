@@ -92,7 +92,6 @@ public class AgregarPost extends javax.swing.JFrame {
 
         UberSocial.agregarPost(username,post);
 
-        JOptionPane.showMessageDialog(null, "Listo. ");
         Main menu = new Main();
         menu.setVisible(true);
         this.dispose();

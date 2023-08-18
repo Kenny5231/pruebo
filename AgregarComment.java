@@ -115,7 +115,6 @@ public class AgregarComment extends javax.swing.JFrame {
 
         UberSocial.agregarComment(user, postID, autor, comment);
 
-        JOptionPane.showMessageDialog(null, "Listo. ");
         Main menu = new Main();
         menu.setVisible(true);
         this.dispose();

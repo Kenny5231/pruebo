@@ -86,7 +86,6 @@ public class AgregarCuenta extends javax.swing.JFrame {
         
         UberSocial.agregarCuenta(username, tipo);
         
-        JOptionPane.showMessageDialog(null, "Listo. ");
         Main menu = new Main();
         menu.setVisible(true);
         this.dispose();

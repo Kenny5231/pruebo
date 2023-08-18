@@ -86,7 +86,6 @@ public class AgregarAmigo extends javax.swing.JFrame {
 
         UberSocial.agregarAmigo(user1, user2);
 
-        JOptionPane.showMessageDialog(null, "Listo. ");
         Main menu = new Main();
         menu.setVisible(true);
         this.dispose();
