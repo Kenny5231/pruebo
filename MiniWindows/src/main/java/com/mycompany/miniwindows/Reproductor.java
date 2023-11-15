@@ -16,7 +16,7 @@ public class Reproductor extends javax.swing.JFrame {
     public Reproductor() {
         initComponents();
     }
-//
+//psss
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
