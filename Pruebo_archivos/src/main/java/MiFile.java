@@ -25,6 +25,7 @@ public class MiFile {
         mifile= new File(direccion);
     }
     
+    
     public void info(){
         if(mifile.exists()){
             System.out.println("*Datos del folder o RCHIVO**\n");
