@@ -124,7 +124,7 @@ public class MiFile {
              
          }
      }
-     
+     //nueva forma de escribir el texto
      public void EscribirTexto(boolean append) throws IOException {
         try (PrintWriter escribir = new PrintWriter(new FileWriter(mifile, append))) {
             Scanner lea = new Scanner(System.in);
@@ -141,7 +141,7 @@ public class MiFile {
             System.out.println("Texto escrito en el archivo correctamente.");
         }
     }
-
+     //nueva forma de leer 
     public void LeerTexto() throws IOException {
         try (BufferedReader leo = new BufferedReader(new FileReader(mifile))) {
             System.out.println("\nContenido del archivo:\n-----------------------");
