@@ -19,6 +19,8 @@ public class MiFile {
     private RandomAccessFile rcods, remps;
 
     public MiFile() {
+        
+        
         try {
             File f = new File("company");
             f.mkdir();
